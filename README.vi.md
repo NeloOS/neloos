@@ -1,6 +1,6 @@
 # NeloOS
 
-**Hệ điều hành cho người Việt, sẵn sàng làm việc với AI.**
+**Hệ điều hành Linux cho máy tính cá nhân.**
 
 [English](README.md)
 

@@ -1,6 +1,6 @@
 # NeloOS
 
-**An operating system for Vietnamese users, ready to work with AI.**
+**A Linux desktop operating system.**
 
 [Tiếng Việt](README.vi.md)
 
