@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>NeloOS</title>
+  <!-- GitHub organization avatar: the "Đài sen" logo reversed on a jade square. -->
+  <rect width="512" height="512" fill="#0E6B63"/>
+  <g transform="translate(256 256) scale(6.4) translate(-32 -32)">
+    <circle cx="32" cy="32" r="27" fill="#FFFFFF"/>
+    <path d="M32 32V20M32 32L42.4 26M32 32L42.4 38M32 32V44M32 32L21.6 38M32 32L21.6 26"
+          fill="none" stroke="#0E6B63" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+    <g fill="#0E6B63">
+      <circle cx="32" cy="20" r="3.9"/>
+      <circle cx="42.4" cy="26" r="3.9"/>
+      <circle cx="42.4" cy="38" r="3.9"/>
+      <circle cx="32" cy="44" r="3.9"/>
+      <circle cx="21.6" cy="38" r="3.9"/>
+      <circle cx="21.6" cy="26" r="3.9"/>
+    </g>
+    <circle cx="32" cy="32" r="5.2" fill="#C2417A"/>
+  </g>
+</svg>

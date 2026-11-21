@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "NeloOS"
+            }
+        ],
+        "Id": "NeloOS",
+        "License": "CC-BY-SA-4.0",
+        "Name": "NeloOS – Bay",
+        "Name[vi]": "NeloOS – Vịnh"
+    }
+}

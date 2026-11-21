@@ -1,0 +1,3 @@
+[Wayland]
+# KWin launches fcitx5 as the Wayland input method (instead of Fedora's default virtual keyboard).
+InputMethod[$e]=/usr/share/applications/org.fcitx.Fcitx5.desktop

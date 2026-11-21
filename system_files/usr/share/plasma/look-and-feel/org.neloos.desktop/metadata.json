@@ -1,0 +1,17 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "NeloOS"
+            }
+        ],
+        "Category": "",
+        "Description": "The default NeloOS look and feel",
+        "Description[vi]": "Giao diện mặc định của NeloOS",
+        "Id": "org.neloos.desktop",
+        "License": "GPLv2+",
+        "Name": "NeloOS",
+        "Website": "https://github.com/neloos/neloos"
+    }
+}

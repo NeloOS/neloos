@@ -1,0 +1,11 @@
+# bootc-image-builder config for the virtual machine disk (qcow2). FOR TESTING ONLY.
+# The account below has a trivial password; never use this config for real machines.
+
+[[customizations.user]]
+name = "nelo"
+password = "nelo"
+groups = ["wheel"]
+
+[[customizations.filesystem]]
+mountpoint = "/"
+minsize = "40 GiB"

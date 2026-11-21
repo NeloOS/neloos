@@ -1,0 +1,17 @@
+[KDE]
+LookAndFeelPackage=org.neloos.desktop
+widgetStyle=Breeze
+SingleClick=false
+
+[General]
+ColorScheme=NeloOS
+font=Be Vietnam Pro,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Be Vietnam Pro,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Be Vietnam Pro,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=Be Vietnam Pro,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[WM]
+activeFont=Be Vietnam Pro,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1
+
+[Icons]
+Theme=breeze

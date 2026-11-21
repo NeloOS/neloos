@@ -1,0 +1,15 @@
+NeloOS
+Copyright 2026 Phan Nguyen and the NeloOS contributors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE),
+except for the files listed below, which keep their own licenses:
+
+- branding/ (logo, wallpaper): CC-BY-SA-4.0, see branding/README.md.
+  The NeloOS name and logo are also covered by TRADEMARKS.md.
+- system_files/usr/share/color-schemes/NeloOS.colors: LGPL-2.0-or-later,
+  derived from KDE Breeze Light.
+- system_files/usr/share/plasma/look-and-feel/org.neloos.desktop/: GPL-2.0-or-later,
+  derived from the Fedora and KDE Plasma look-and-feel packages.
+
+NeloOS is an independent remix of Fedora and is not sponsored or endorsed by
+the Fedora Project. Fedora is a trademark of Red Hat, Inc.

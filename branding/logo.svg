@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="256" height="256">
+  <title>NeloOS</title>
+  <!-- "Đài sen": a lotus seed pod seen from above. The seeds are linked to the
+       center like a network, a hint of AI. -->
+  <circle cx="32" cy="32" r="27" fill="#0E6B63"/>
+  <path d="M32 32V20M32 32L42.4 26M32 32L42.4 38M32 32V44M32 32L21.6 38M32 32L21.6 26"
+        fill="none" stroke="#BFE3DC" stroke-width="1.6" stroke-linecap="round" opacity="0.6"/>
+  <g fill="#F3FAF8">
+    <circle cx="32" cy="20" r="3.9"/>
+    <circle cx="42.4" cy="26" r="3.9"/>
+    <circle cx="42.4" cy="38" r="3.9"/>
+    <circle cx="32" cy="44" r="3.9"/>
+    <circle cx="21.6" cy="38" r="3.9"/>
+    <circle cx="21.6" cy="26" r="3.9"/>
+  </g>
+  <circle cx="32" cy="32" r="5.2" fill="#C2417A"/>
+</svg>

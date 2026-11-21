@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>NeloOS</title>
+  <!-- Small-size variant of logo.svg for 16–48 px (Start button, icons):
+       no connecting lines, larger seeds so they stay readable. -->
+  <circle cx="32" cy="32" r="29" fill="#0E6B63"/>
+  <g fill="#F3FAF8">
+    <circle cx="32" cy="19" r="4.6"/>
+    <circle cx="43.3" cy="25.5" r="4.6"/>
+    <circle cx="43.3" cy="38.5" r="4.6"/>
+    <circle cx="32" cy="45" r="4.6"/>
+    <circle cx="20.7" cy="38.5" r="4.6"/>
+    <circle cx="20.7" cy="25.5" r="4.6"/>
+  </g>
+  <circle cx="32" cy="32" r="6" fill="#C2417A"/>
+</svg>

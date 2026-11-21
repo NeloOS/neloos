@@ -1,0 +1,55 @@
+name: Build NeloOS image
+
+# A release is a git tag: `git tag v0.1.0 && git push origin v0.1.0`
+# builds the image and publishes it as `0.1.0` and `latest`.
+# A manual run (Actions tab > Build NeloOS image > Run workflow) publishes
+# `testing` only, so it never reaches installed machines.
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+env:
+  IMAGE_NAME: neloos
+  FEDORA_VERSION: "45"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Free up runner disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
+          df -h /
+
+      - name: Build image
+        run: |
+          podman build --pull=newer \
+            --build-arg FEDORA_VERSION="${FEDORA_VERSION}" \
+            -t "${IMAGE_NAME}:build" .
+
+      - name: Push to GitHub Container Registry
+        env:
+          REGISTRY_USER: ${{ github.actor }}
+          REGISTRY_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          REGISTRY="ghcr.io/${GITHUB_REPOSITORY_OWNER,,}"
+          if [[ "${GITHUB_REF_TYPE}" == "tag" ]]; then
+            TAGS=("${GITHUB_REF_NAME#v}" latest)
+          else
+            TAGS=(testing)
+          fi
+          echo "${REGISTRY_PASSWORD}" | podman login ghcr.io -u "${REGISTRY_USER}" --password-stdin
+          for tag in "${TAGS[@]}"; do
+            podman push "${IMAGE_NAME}:build" "docker://${REGISTRY}/${IMAGE_NAME}:${tag}"
+          done

@@ -1,0 +1,18 @@
+[Groups/0]
+# Group name (shown to users, so it stays in Vietnamese: "Default")
+Name=Mặc định
+# Keyboard layout
+Default Layout=us
+# Input method used when switched on (Ctrl+Space toggles English <-> Vietnamese)
+DefaultIM=unikey
+
+[Groups/0/Items/0]
+Name=keyboard-us
+Layout=
+
+[Groups/0/Items/1]
+Name=unikey
+Layout=
+
+[GroupOrder]
+0=Mặc định

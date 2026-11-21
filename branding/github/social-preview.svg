@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <title>NeloOS</title>
+  <!-- GitHub repository social preview (Settings > General > Social preview), 1280x640.
+       Text uses Be Vietnam Pro; it must be installed when rendering to PNG. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B5A53"/>
+      <stop offset="1" stop-color="#12807A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <g transform="translate(300 320) scale(7) translate(-32 -32)">
+    <circle cx="32" cy="32" r="27" fill="#FFFFFF"/>
+    <path d="M32 32V20M32 32L42.4 26M32 32L42.4 38M32 32V44M32 32L21.6 38M32 32L21.6 26"
+          fill="none" stroke="#0E6B63" stroke-width="1.6" stroke-linecap="round" opacity="0.35"/>
+    <g fill="#0E6B63">
+      <circle cx="32" cy="20" r="3.9"/>
+      <circle cx="42.4" cy="26" r="3.9"/>
+      <circle cx="42.4" cy="38" r="3.9"/>
+      <circle cx="32" cy="44" r="3.9"/>
+      <circle cx="21.6" cy="38" r="3.9"/>
+      <circle cx="21.6" cy="26" r="3.9"/>
+    </g>
+    <circle cx="32" cy="32" r="5.2" fill="#C2417A"/>
+  </g>
+  <g font-family="Be Vietnam Pro" fill="#FFFFFF">
+    <text x="540" y="318" font-size="132" font-weight="700" letter-spacing="-2">NeloOS</text>
+    <text x="545" y="392" font-size="34" font-weight="500" fill="#E3F2EF">Hệ điều hành cho người Việt</text>
+    <text x="545" y="440" font-size="34" font-weight="400" fill="#BFE3DC">sẵn sàng làm việc với AI</text>
+  </g>
+</svg>

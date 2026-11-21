@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 810" width="3840" height="2160" preserveAspectRatio="xMidYMid slice">
+  <title>NeloOS – Vịnh</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CFE3EC"/>
+      <stop offset="0.58" stop-color="#E6F0EE"/>
+      <stop offset="1" stop-color="#C3DCD6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="810" fill="url(#sky)"/>
+  <g transform="scale(1 0.9)">
+    <path d="M0 640 C80 560 120 430 190 450 C240 470 250 600 300 610 C360 560 380 380 460 400 C530 420 520 610 600 620 L700 620 C760 520 790 470 850 490 C900 520 900 610 960 620 C1020 540 1060 420 1140 440 C1210 470 1200 600 1270 610 C1330 560 1370 500 1440 520 L1440 900 L0 900 Z" fill="#A7C6BE"/>
+    <path d="M0 720 C60 690 90 560 160 570 C220 590 230 700 290 710 L520 715 C580 640 620 540 700 560 C760 580 770 700 830 712 L1100 716 C1160 620 1220 560 1290 590 C1340 620 1350 700 1440 705 L1440 900 L0 900 Z" fill="#76A096"/>
+    <rect x="0" y="732" width="1440" height="168" fill="#A9CCCB"/>
+    <path d="M180 780h120M620 802h160M1150 772h140M420 830h90M960 846h120" stroke="#CBE2E0" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

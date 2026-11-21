@@ -1,0 +1,5 @@
+# Build outputs (ISO, virtual machine disks)
+output/
+*.iso
+*.qcow2
+/iso.toml
